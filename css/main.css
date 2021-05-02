@@ -10,3 +10,104 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+
+nav {
+  padding: 2.5rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  background-color: #333;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 5rem;
+}
+
+.container > div {
+  width: 100vw;
+  height: 100vh;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  font-size: 5rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > div img {
+  width: 50%;
+  height: 100%;
+}
+
+.container > div h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.container .lazy {
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+}
+
+.container .home {
+  background-color: #C94C4C;
+}
+
+.container .about {
+  background-color: #FEB236;
+}
+
+.container .contact {
+  background-color: #6B5B95;
+}
+
+.container .social {
+  background-color: #82B74B;
+}
+
+.container .gallery {
+  background-color: #50394C;
+}
